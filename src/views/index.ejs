@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portafolio Web Personal</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/unicons.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="/css/tooplate-style.css">
+
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class='uil uil-user'></i> EricsonCode</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">Inicio</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Proyectos</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resumen</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contacto</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        cambiar estilo
+                      </div>
+                    </div>
+                </ul> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Es un placer <span class="mobile-block">conocerte!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Bienvenidos a todos, soy</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Ericson Urbano Poma</span>
+                                    <span class="animated-item">Desarrollador Web</span>
+                                    <span class="animated-item">Diseñador Web</span>
+                                </div>
+                        </h1>
+
+                        <p>Busco una oportunidad para aplicar los conocimientos y habilidades adquiridos en el desarrollo de software y manejo de herramientas informáticas en un entorno profesional. 
+                            Me considero una persona responsable, puntual y siempre dispuesta a aprender, con un enfoque orientado a cumplir metas y contribuir al desarrollo de soluciones innovadoras.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                            <a href="https://drive.google.com/file/d/1mcguN-CBdvXq_-9bk2lIXKUtzDhuu-2H/view?usp=sharing" 
+                                class="btn custom-btn custom-btn-bg custom-btn-link"
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                <i class='uil uil-file-alt'></i> Descargar CV
+                            </a>
+                            <a href="https://www.linkedin.com/in/ericson-olimpio-urbano-poma-b590ba340/" 
+                                class="btn custom-btn custom-btn-bg custom-btn-link" 
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=971885783&text&type=phone_number&app_absent=0" 
+                                class="btn custom-btn custom-btn-bg custom-btn-link" 
+                                target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="/images/portada.png" class="img-fluid" alt="svg image" style="border-radius: 50%; object-fit: cover; width: 100%; height: 100%;">
+                    </div>
+                </div>
+                <style>
+                    body.dark-mode .navbar {
+                        background-color: #000000; /* fondo oscuro más claro */
+                        color: #fffcfc; /* texto claro */
+                    }
+
+                    body.dark-mode .navbar .navbar-nav .nav-link {
+                        color: #d8d515; /* enlaces claros */
+                    }
+
+                    /* Estilo para el enlace .navbar-brand en modo oscuro */
+                    body.dark-mode .navbar .navbar-brand {
+                        color: #d8d515; /* Texto claro */
+                    }
+
+                    /* Estilo para el ícono en modo oscuro (si es necesario) */
+                    body.dark-mode .navbar .navbar-brand i {
+                        color: #d8d515; /* Cambia el color del ícono a blanco en modo oscuro */
+                    }
+                    body.dark-mode .navbar-toggler-icon {
+                        background-color: #d8d515; /* Cambia el color del ícono de las barras a blanco */
+                    }
+                </style>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Conocimientos -->
+    <style>
+        
+       .conocimientos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .card-body {
+            width: 100%;
+        }
+
+        .trabajos {
+            max-width: 2100px;
+            width: 100%;
+        }
+
+        .titulo {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        /* Contenedor en grid de 6 columnas y 2 filas */
+        .skill-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* 6 columnas */
+            grid-template-rows: repeat(2, auto);  /* 2 filas */
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .skill {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skill i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #555;
+            transition: transform 0.3s ease;
+        }
+
+        .skill p {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Efecto de hover */
+        .skill:hover i {
+            transform: scale(1.1);
+        }
+
+        /* Responsividad */
+        @media (max-width: 1024px) {
+            .skill-container {
+                grid-template-columns: repeat(4, 1fr); /* 4 columnas, 3 filas */
+                grid-template-rows: repeat(3, auto);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .skill-container {
+                grid-template-columns: repeat(3, 1fr); /* 3 columnas, 4 filas */
+                grid-template-rows: repeat(4, auto);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .skill-container {
+                grid-template-columns: repeat(2, 1fr); /* 2 columnas, 6 filas */
+                grid-template-rows: repeat(6, auto);
+            }
+            .skill i {
+                font-size: 2rem;
+            }
+        }
+        /* Estilo para el modo oscuro */
+        @media (prefers-color-scheme: dark) {
+            .titulo {
+                color: #fff; /* Título en blanco en el modo oscuro */
+            }
+
+            .skill i {
+                color: #fff; /* Íconos en blanco en el modo oscuro */
+            }
+
+            /* Asegura que los textos también sean visibles y legibles en modo oscuro */
+            .skill p {
+                color: #fff; /* Texto en blanco para los íconos */
+            }
+        }
+    </style>
+    <div class="conocimientos">
+        <div class="card">
+            <div class="card-body">
+                <section class="trabajos">
+                    <div class="contenedor">
+                        <h3 class="titulo text-dark text-light-dark">Habilidades Técnicas</h3>
+                        <div class="skill-container">
+                            <div class="skill"><i class="fab fa-php"></i><p>PHP</p></div>
+                            <div class="skill"><i class="fab fa-js"></i><p>JavaScript</p></div>
+                            <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
+                            <div class="skill"><i class="fab fa-laravel"></i><p>Laravel</p></div>
+                            <div class="skill"><i class="fas fa-database"></i><p>MySQL</p></div>
+                            <div class="skill"><i class="fab fa-git"></i><p>Git</p></div>
+                            <div class="skill"><i class="fab fa-html5"></i><p>HTML5</p></div>
+                            <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+                            <div class="skill"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div>
+                            <div class="skill"><i class="fas fa-database"></i><p>PostgreSQL</p></div>
+                            <div class="skill"><i class="fas fa-tasks"></i><p>Metodología Scrum</p></div>
+                            <div class="skill"><i class="fab fa-microsoft"></i><p>Microsoft Office</p></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5"></div>
+
+    <!-- PROYECTOS RECICLADOS -->
+    <!-- Proyectos -->
+    <section class="Proyectos" id="project">
+        <div class="container">
+            <h3 class="titulo text-center">Proyectos</h3>
+    
+            <div class="row row-cols-1 row-cols-md-4 g-4" id="portfoliolist">
+                <div class="col portfolio javascript todo bootstrap jquery" data-cat="javascript todo bootstrap jquery">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="/images/asistencia.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" class="titulo text-dark text-light-dark" style="color: #333;">ENGIECERTI: Sistema Generador de Certificados Digitales y Control de Asistencia con Geolocalización</h5>
+                            <span class="btn btn btn-secondary btn-sm">HTML5</span>
+                            <span class="btn btn btn-secondary btn-sm">CSS</span>
+                            <span class="btn btn btn-secondary btn-sm">PHP</span>
+                            <span class="btn btn btn-secondary btn-sm m-1">Bootstrap</span>
+                            <span class="btn btn btn-secondary btn-sm">JavaScript</span>
+                            <span class="btn btn btn-secondary btn-sm">jQuery</span>
+                            <span class="btn btn btn-secondary btn-sm">MySQL</span>
+                            <br><br>
+                            <a href="https://github.com/Ericson-1412/ENGIECERTI-SISTEMA-GENERADOR-DE-CERTIFICADOS-DIGITALES-Y-CONTROL-DE-ASISTENCIA-CON-GEOLOCALIZACION" 
+                            class="btn custom-btn custom-btn-bg custom-btn-link" target="_blank">Ir al Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col portfolio javascript todo bootstrap jquery" data-cat="javascript todo bootstrap jquery">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="/images/estudio.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" class="titulo text-dark text-light-dark" style="color: #333;">Sistema Web para Potenciar el Acceso a los Recursos Educativos en Estudiantes Universitarios</h5>
+                            <span class="btn btn btn-secondary btn-sm">HTML5</span>
+                            <span class="btn btn btn-secondary btn-sm">CSS</span>
+                            <span class="btn btn btn-secondary btn-sm">Bootstrap</span>
+                            <span class="btn btn btn-secondary btn-sm m-1">JavaScript</span>
+                            <span class="btn btn btn-secondary btn-sm">Diseño UX/UI</span>
+                            <br><br>
+                            <a href="https://github.com/Ericson-1412/PAGINA_EDUCATIVA" class="btn custom-btn custom-btn-bg custom-btn-link" target="_blank">Ir al Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col portfolio php javascript todo bootstrap sql" data-cat="php javascript todo bootstrap sql">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="/images/parrilla.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" class="titulo text-dark text-light-dark" style="color: #333;">Sistema Web Informativo para la Promoción y Contacto de La Parrilla de Chugo</h5>
+                            <span class="btn btn btn-secondary btn-sm">Bootstrap</span>
+                            <span class="btn btn btn-secondary btn-sm">HTML5</span>
+                            <span class="btn btn btn-secondary btn-sm">CSS</span>
+                            <span class="btn btn btn-secondary btn-sm m-1">JavaScript</span>
+                            <span class="btn btn btn-secondary btn-sm ">PostgreSQL</span>
+                            <span class="btn btn btn-secondary btn-sm">Node.js</span>
+                            <br><br>
+                            <a href="https://github.com/JuanCarlos670/SistemaWebRestobar" class="btn custom-btn custom-btn-bg custom-btn-link" target="_blank">Ir al Repositorio</a>
+                            <a href="https://sistemawebrestobar-1.onrender.com" class="btn custom-btn custom-btn-bg custom-btn-link" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Estilo general para el título */
+        .titulo {
+            color: #000; /* Color negro por defecto */
+        }
+
+        /* Estilo para el modo oscuro */
+        @media (prefers-color-scheme: dark) {
+            .titulo {
+                color: #fff; /* Cambia el color del título a blanco en modo oscuro */
+            }
+        }
+    </style>
+
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Formación Académica</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Ingenieria en Sistemas Computacionales</span><small>Universidad Privada del Norte</small></h3>
+                                  <p>Inicio de la carrera en Ingeniería en Sistemas Computacionales. Durante este tiempo se han adquirido conocimientos fundamentales en áreas como programación, redes, bases de datos, y más.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2025</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Ingeniería en Sistemas Computacionales</span><small>Universidad Privada del Norte</small></h3>
+                                <p>Finalización de la carrera. Durante la carrera, se abordaron proyectos y prácticas en diferentes áreas de la informática, incluyendo desarrollo de software, análisis de datos, y más.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Cursos Complementarios</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2024</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Lenguaje de Programación PHP</span><small>Data Science Analysis</small></h3>
+                                  <p>Introducción al lenguaje de programación PHP, abarcando sus fundamentos y su aplicación en el desarrollo web. 
+                                    Se exploran conceptos clave como la integración con bases de datos y el manejo de formularios.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2015</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Python Orientado al Análisis de Datos Power BI</span><small>Data Science Analysis</small></h3>
+                                <p>Curso enfocado en el uso de Python para el análisis de datos, integrando herramientas como Power BI para la 
+                                    visualización efectiva de datos. Se cubren temas como análisis de tendencias y patrones en conjuntos de datos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            
+            <div class="col-lg-6 col-12">
+                <div class="contact-form text-center">
+                  <h2 class="mb-4">¿Te interesa trabajar juntos? Hablemos</h2>
+              
+                  <form action="" method="get">
+                    <div class="row">
+                      <div class="col-lg-6 col-12">
+                        <input type="text" class="form-control" name="name" placeholder="Escribe tu nombre" id="name">
+                      </div>
+              
+                      <div class="col-lg-6 col-12">
+                        <input type="email" class="form-control" name="email" placeholder="Correo" id="email">
+                      </div>
+              
+                      <div class="col-12">
+                        <textarea name="message" rows="6" class="form-control" id="Mensaje" placeholder="Mensaje"></textarea>
+                      </div>
+              
+                      <!-- Aquí está el contenedor del botón, asegurándonos de centrarlo -->
+                      <div class="col-12 d-flex justify-content-center mt-3">
+                        <input type="submit" class="btn custom-btn custom-btn-bg custom-btn-link" value="Enviar Mensaje">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              </div>
+
+          <style>
+            .d-flex {
+                display: flex;
+            }
+
+            .justify-content-center {
+                justify-content: center;
+            }
+
+            .btn-whatsapp, .btn-email {
+                color: #000; /* Texto negro */
+                background-color: #ffffff; /* Fondo blanco para los botones */
+                border: 1px solid #ffffff; /* Borde blanco para los botones */
+            }
+
+            /* Estilo para el modo oscuro */
+            @media (prefers-color-scheme: dark) {
+                .btn-whatsapp, .btn-email {
+                    color: #fff; /* Cambiar texto a blanco */
+                    background-color: #000000; /* Fondo negro para los botones */
+                    border: 1px solid #000000; /* Borde negro para los botones */
+                }
+
+                /* Cambiar los íconos a blancos en modo oscuro */
+                .btn-whatsapp i, .btn-email i {
+                    color: #fff; /* Asegura que los íconos sean blancos en modo oscuro */
+                }
+            }
+            
+          </style>
+      
+          <!-- Sección de logos de contacto -->
+          <!-- <div class="row justify-content-center mt-4">
+            <div class="col-12 text-center">
+                Botón WhatsApp -->
+                <!-- <a href="https://api.whatsapp.com/send/?phone=971885783&text&type=phone_number&app_absent=0" class="btn btn-whatsapp" data-toggle="tooltip" data-placement="left" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+        
+                Botón Correo Electrónico
+                <a href="mailto:ericsonurbano861@gmail.com" class="btn btn-email" data-toggle="tooltip" data-placement="left" title="Correo Electrónico">
+                    <i class="uil uil-envelope"></i> Correo Electrónico
+                </a>
+            </div> -->
+        </div>
+        </div>
+      </section>
+
+      <!-- <style>
+                /* Estilo para los botones */
+        .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center; /* Centra el contenido (íconos + texto) */
+        padding: 12px 20px; /* Relleno ajustado */
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        border-radius: 50px;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+        width: 250px; /* Establece el mismo ancho para ambos botones */
+        text-align: center; /* Alinea el texto y los íconos al centro */
+        }
+
+        /* Botón de WhatsApp */
+        .btn-whatsapp {
+        background-color: #25D366; /* Color característico de WhatsApp */
+        }
+
+        /* Botón de Correo Electrónico */
+        .btn-email {
+        background-color: #007BFF; /* Color para el correo */
+        }
+
+        /* Efecto hover */
+        .btn:hover {
+        background-color: #004d99; /* Color de hover para los botones */
+        }
+
+        /* Estilo para los íconos dentro de los botones */
+        .btn i {
+        margin-right: 10px;
+        }
+      </style> -->
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2025 Ericson Urbano Poma . Todos los Derechos Reservados</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/Headroom.js"></script>
+    <script src="/js/jQuery.headroom.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/smoothscroll.js"></script>
+    <script src="/js/custom.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  </body>
+</html>
